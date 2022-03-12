@@ -8,10 +8,10 @@ Característica: : Academia Choucair
   Escenario: Buscar un curso de automatizacion
     Dado brandon quiere aprender automatizacion en la academia Choucair
     | strUser   | strPassword  |
-    | TuUsuario | TuClave      |
+    | brandon   | 123456       |
     Cuando busco el curso en la plataforma de la academia choucair
     | strCourse               |
     | Metodologia Bancolombia |
     Entonces encuentra el curso llamado recursos
-    |strCourse                |
+    | strCourse               |
     | Metodologia Bancolombia |
